@@ -155,7 +155,7 @@ export default function Home() {
      <h3 className="text-xl sm:text-3xl text-[#9D9D9D]">Select your destination to make your summer unforgettable</h3>
      
      </div>
-     <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mt-12 px-16 mb-12">
+     <div className="grid grid-cols-1 flex flex-col items-center justify-center place-items-center sm:grid-cols-4 gap-4 mt-12 px-16 mb-12">
       <div className="hover:border-t-8 hover:border-sky-900 py-2">
         <img className="rounded-md" src="images/slider-1.png"/>
         <h3 className="text-2xl sm:text-4xl text-black mt-2">BAHAMAS</h3>
