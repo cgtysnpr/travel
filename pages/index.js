@@ -29,19 +29,19 @@ export default function Home() {
   <div>
     <div className="w-full flex flex-row items-center rounded-full border-2 h-14 sm:h-24 border-white bg-transparent">
     <LocationMarkerIcon className="block h-8 w-16 text-white " aria-hidden="true" />
-    <input type="text" className="w-11/12 h-full text-white text-2xl bg-transparent border-transparent focus:outline-none"  placeholder="Nereye Gidiyorsunuz?"/>
+    <input type="text" className="w-11/12 h-full text-white heroText text-2xl bg-transparent border-transparent focus:outline-none"  placeholder="Nereye Gidiyorsunuz?"/>
     </div>
   </div>
   <div>
     <div className="w-full flex flex-row items-center rounded-full h-14 sm:h-24 border-2 border-white bg-transparent">
     <CalendarIcon className="block h-8 w-16 text-white" aria-hidden="true" />
-    <h1 className="text-white text-2xl bg-transparent border-transparent focus:outline-none"  placeholder="Nereye Gidiyorsunuz?"> {"Check-in > Check-out"} </h1>
+    <h1 className="text-white text-2xl  bg-transparent border-transparent focus:outline-none"> {"Check-in > Check-out"} </h1>
     </div>
   </div>
   <div className="flex flex-row gap-3">
     <div className="w-full flex flex-row items-center rounded-full h-14 sm:h-24 border-2 border-white bg-transparent">
     <UsersIcon className="block h-8 w-16 text-white" aria-hidden="true" />
-    <h1 className="text-white text-xl sm:text-2xl bg-transparent border-transparent focus:outline-none"  placeholder="Nereye Gidiyorsunuz?"> 2 Guests </h1>
+    <h1 className="text-white text-xl sm:text-2xl bg-transparent border-transparent focus:outline-none" > 2 Guests </h1>
     </div>
     <div className="w-full">
     <button className="text-blue-800 w-full rounded-full h-14 sm:h-24 text-2xl bg-white border-transparent border-2 border-white bg-white focus:outline-none">Search</button>
@@ -150,34 +150,273 @@ export default function Home() {
     </div>
     <div className="flex justify-center w-100">
      <hr className="mt-8 w-11/12 border border-[#707070] mb-8" /></div>
-     <div className="flex flex-col sm:flex-row w-100 justify-between px-6 sm:px-20">
-     <h3 className="text-2xl sm:text-3xl text-black">WHERE TO GO, THIS SUMMER ?!</h3>
-     <h3 className="text-xl sm:text-3xl text-[#9D9D9D]">Select your destination to make your summer unforgettable</h3>
-     
-     </div>
-     <div className="grid grid-cols-1 flex flex-col items-center justify-center place-items-center sm:grid-cols-4 gap-4 mt-12 px-16 mb-12">
-      <div className="hover:border-t-8 hover:border-sky-900 py-2">
-        <img className="rounded-md" src="images/slider-1.png"/>
-        <h3 className="text-2xl sm:text-4xl text-black mt-2">BAHAMAS</h3>
-        <h3 className="text-md sm:text-lg text-black">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h3>
+     <div className="px-12 mt-10 pt-10 mb-16">
+      <h1 className="text-4xl font-bold text-black  tracking-wide">WHERE TO GO, THIS SUMMER ?!</h1>
+      <h1 className="text-[#9D9D9D] w-3/6 mt-2 mb-12">Select your destination to make your summer unforgettable for you</h1>
+ 
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/slider-1.png"/>
+        <h1 className="text-2xl font-bold">BAHAMAS</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
       </div>
-      <div className="hover:border-t-8 hover:border-sky-900 py-2">
-        <img className="rounded-md" src="images/slider-2.png"/>
-        <h3 className="text-2xl sm:text-4xl text-black mt-2">ITALY</h3>
-        <h3 className="text-md sm:text-lg text-black">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h3>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/slider-2.png"/>
+        <h1 className="text-2xl font-bold">ITALY</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
       </div>
-      <div className="hover:border-t-8 hover:border-sky-900 py-2">
-        <img className="rounded-md" src="images/slider-3.png"/>
-        <h3 className="text-2xl sm:text-4xl text-black mt-2">DUBAI</h3>
-        <h3 className="text-md sm:text-lg text-black">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h3>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/slider-3.png"/>
+        <h1 className="text-2xl font-bold">DUBAI</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
       </div>
-      <div className="hover:border-t-8 hover:border-sky-900 py-2">
-        <img className="rounded-md" src="images/slider-4.png"/>
-        <h3 className="text-2xl sm:text-4xl text-black mt-2">FRANCE</h3>
-        <h3 className="text-md sm:text-lg text-black">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h3>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/slider-4.png"/>
+        <h1 className="text-2xl font-bold">FRANCE</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
       </div>
 
-</div>
+
+    </div>
+<div className="w-full bg-[#fbeaeb] pb-10">
+<div class="grid grid-cols-1 flex justify-center justify-items-center sm:grid-cols-4 gap-4  p-12">
+          <div className="flex flex-col">
+            <div className="flex  mb-2 p-5">
+            <h1 className="text-3xl text-black font-bold">SADECE GÜZEL DEGIL, EN IYILERI GOSTERIYORUZ</h1>
+            </div>
+            <hr className="border-b-8 border-blue-900 w-6/12 ml-5" />
+            <h1 className="text-lg text-black p-5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet dolor velle est posse indum.</h1>
+          </div>
+          <div>
+            <img className="rounded-mg" src="images/cart2.png"/>
+            <h1 className="text-2xl font-bold">MARMARIS OTEL</h1>
+            <h1 className="text-md text-[#9D9D9D]">TURKIYE, MUGLA</h1>
+            <h1 className="text-md text-[#9D9D9D]">FROM</h1>
+            <h1 className="text-xl text-black">$ 68, per night</h1>
+            
+          </div>
+          <div>
+          <img className="rounded-mg" src="images/cart3.png"/>
+          <h1 className="text-2xl font-bold">MARMARIS OTEL</h1>
+            <h1 className="text-md text-[#9D9D9D]">TURKIYE, MUGLA</h1>
+            <h1 className="text-md text-[#9D9D9D]">FROM</h1>
+            <h1 className="text-xl text-black">$ 68, per night</h1>
+          </div>
+          <div>
+          <img className="rounded-mg" src="images/cart4.png"/>
+          <h1 className="text-2xl font-bold">MARMARIS OTEL</h1>
+            <h1 className="text-md text-[#9D9D9D]">TURKIYE, MUGLA</h1>
+            <h1 className="text-md text-[#9D9D9D]">FROM</h1>
+            <h1 className="text-xl text-black">$ 68, per night</h1>
+          </div>
+      </div>
+      <div className="flex justify-between">
+      <h1 className="text-4xl font-bold text-black px-12 tracking-widest">POPULAR LOCATIONS</h1>
+      <h1 className="px-12 text-[#9D9D9D]">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet </h1>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 px-12 mt-6">
+        <div className="bg-[#2f3c7e] rounded-md p-6">
+          <h1 className="text-red-700 font-bold text-xl underline">Trending</h1>
+          <h1 className="text-white  text-xl ">Muğla, Turkey</h1>
+          <h1 className="text-white  text-xl ">1284 views</h1>
+          </div>
+          <div className="bg-[#2f3c7e] rounded-md p-6">
+          <h1 className="text-red-700 font-bold text-xl underline">Trending</h1>
+          <h1 className="text-white  text-xl ">Muğla, Turkey</h1>
+          <h1 className="text-white  text-xl ">1284 views</h1>
+          </div>
+          <div className="bg-[#2f3c7e] rounded-md p-6">
+          <h1 className="text-red-700 font-bold text-xl underline">Trending</h1>
+          <h1 className="text-white  text-xl ">Muğla, Turkey</h1>
+          <h1 className="text-white  text-xl ">1284 views</h1>
+          </div>
+          <div className="bg-[#2f3c7e] rounded-md p-6">
+          <h1 className="text-red-700 font-bold text-xl underline">Trending</h1>
+          <h1 className="text-white  text-xl ">Muğla, Turkey</h1>
+          <h1 className="text-white  text-xl ">1284 views</h1>
+          </div>
+          <div className="bg-[#2f3c7e] hidden sm:block rounded-md p-6">
+          <h1 className="text-red-700 font-bold text-xl underline">Trending</h1>
+          <h1 className="text-white  text-xl ">Muğla, Turkey</h1>
+          <h1 className="text-white  text-xl ">1284 views</h1>
+          </div>
+         </div>
+    </div>
+    <div className="px-12 mt-10 pt-10 mb-16">
+      <h1 className="text-4xl font-bold text-black  tracking-wide">LOREM IPSUM SIT AMET DOLOR VELLE EST POSSE.</h1>
+      <h1 className="text-[#9D9D9D] w-3/6 mt-2 mb-12">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet dolor velle est posse indum.</h1>
+ 
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart1.png"/>
+        <h1 className="text-2xl font-bold">ITALY</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart5.png"/>
+        <h1 className="text-2xl font-bold">DUBAI</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart6.png"/>
+        <h1 className="text-2xl font-bold">FRANCE</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      </div>
+      <div className="mt-12 flex justify-between">
+        <h1 className="font-bold text-4xl mb-12">STILL CONFUSED? CHECK OUR OFFERS.</h1>
+        <h1 className="px-12 text-[#9D9D9D]">Select your destination to make your summer unforgettable</h1>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+          <div className="bg-[#FBEAEB] p-8">
+            <h1 className="text-2xl text-[#2F3C7E] font-bold">FISHING SEASON IN NORWAY</h1>
+            <h1 className="text-[#2F3C7E] font-medium w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+          </div>
+          <div className="bg-[#FBEAEB] p-8">
+            <h1 className="text-2xl text-[#2F3C7E] font-bold">WINTER TRAVEL IN NORWAY</h1>
+            <h1 className="text-[#2F3C7E] font-medium w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+          </div>
+          <div className="bg-[#FBEAEB] p-8">
+            <h1 className="text-2xl text-[#2F3C7E] font-bold">NOEL IN NORWAY</h1>
+            <h1 className="text-[#2F3C7E] font-medium w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+          </div>
+        </div>
+
+    </div>
+    <div className="bg-[#F8F8F8] hidden sm:block px-12">
+      <div class="grid sm:grid-cols-4 gap-4 py-16">
+        <div className="flex">
+          <div className="rounded-full w-14 h-14 bg-[#2F3C7E]"/>
+          <div className="ml-8">
+            <h1 className="font-bold text-xl">40 years of experience</h1>
+            <h1 className="text-xs">….. is your holiday home specialist</h1>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="rounded-full w-14 h-14 bg-[#2F3C7E]"/>
+          <div className="ml-8">
+            <h1 className="font-bold text-xl">Average rating of 4+</h1>
+            <h1 className="text-xs">Proven by awards & great reviews</h1>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="rounded-full w-14 h-14 bg-[#2F3C7E]"/>
+          <div className="ml-8">
+            <h1 className="font-bold text-xl">40k+ homes in Europe</h1>
+            <h1 className="text-xs">Beautiful and unique holiday homes</h1>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="rounded-full w-14 h-14 bg-[#2F3C7E]"/>
+          <div className="ml-8">
+            <h1 className="font-bold text-xl">2.8 million guests in 2020</h1>
+            <h1 className="text-xs">We offer you a memorable experience</h1>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div className="px-12 mt-10 pt-10 mb-16">
+      <div className="flex justify-between mb-12">
+      <h1 className="text-4xl  font-bold text-black tracking-wide">SEYAHAT BLOGGERLARINDAN TAVSIYELER</h1>
+      <h1 className="text-[#9D9D9D] mt-2">Select your destination to make your summer unforgettable</h1>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart7.png"/>
+        <h1 className="text-2xl font-bold">NORFOLK</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart8.png"/>
+        <h1 className="text-2xl font-bold">LA QUINTA</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart9.png"/>
+        <h1 className="text-2xl font-bold">STROUD</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      <div className="hover:border-t-8 hover:border-[#35448C] py-2">
+        <img className="rounded-md w-full mb-5" src="images/cart10.png"/>
+        <h1 className="text-2xl font-bold">SAN BERNARDO</h1>
+        <h1 className="w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
+      </div>
+      </div>
+      </div>
+      <div className="px-12">
+        <div className="flex justify-center sm:flex sm:justify-start">
+      <h1 className="mt-12 text-xl font-bold">OTHER, MUST SEEN PLACES</h1>
+      <h1 className="mt-12 text-xl font-bold mb-3">ITALY</h1>
+      </div>
+      <div class="grid sm:grid-cols-4 grid-cols-2 gap-4">
+      <div>
+        <h1>Aspen</h1>
+        <h1>Breckenridge</h1>
+        <h1>Coachella</h1>
+        <h1>Hudson Valley</h1>
+      </div>
+      <div>
+        <h1>Joshua Tree   </h1>
+        <h1>Lake Tahoe</h1>
+        <h1>North Lake Tahoe</h1>
+        <h1>Palm Springs</h1>
+      </div>
+      <div>
+        <h1>San Diego</h1>
+        <h1>South Lake Tahoe</h1>
+        <h1>Steamboat Springs</h1>
+        <h1>Tahoe city</h1>
+      </div>
+      <div>
+        <h1>Telluride</h1>
+        <h1>The Hamptons</h1>
+        <h1>Vail</h1>
+      </div>
+      </div>
+      </div>
+
+      <div className="px-12 mb-12">
+      <h1 className="mt-12 text-xl font-bold">ALL PLACES</h1>
+      <h1 className="mt-12 text-xl font-bold mb-3">ITALY</h1>
+      <div class="grid sm:grid-cols-4 grid-cols-2 gap-10 sm:gap-4">
+      <div>
+        <h1>Aspen</h1>
+        <h1>Breckenridge</h1>
+        <h1>Coachella</h1>
+        <h1>Hudson Valley</h1>
+      </div>
+      <div>
+        <h1>Joshua Tree   </h1>
+        <h1>Lake Tahoe</h1>
+        <h1>North Lake Tahoe</h1>
+        <h1>Palm Springs</h1>
+      </div>
+      <div>
+        <h1>San Diego</h1>
+        <h1>South Lake Tahoe</h1>
+        <h1>Steamboat Springs</h1>
+        <h1>Tahoe city</h1>
+      </div>
+      <div>
+        <h1>Telluride</h1>
+        <h1>The Hamptons</h1>
+        <h1>Vail</h1>
+      </div>
+      </div>
+      </div>
+      <div className="bg-[#C5FAD5] pb-16">
+        <div className="flex justify-center flex-col items-center pt-10">
+        <h1 className="font-semibold text-xl mb-5">Sign Up, we will send the best deals to you!</h1>
+        <div className="w-full flex items-center justify-center ">
+          <div className="bg-white flex  flex-row-reverse w-3/6 h-14 rounded-md">
+        <button type="button" className="rounded-md bg-black text-white w-2/5">Subscribe</button>
+          <input className="w-full bg-transparent focus:outline-none pl-3" type="text" placeholder="Enter your mail address, here."/>
+          </div>
+        </div>
+        </div>
+      </div>
      </>
   )
 }
