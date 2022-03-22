@@ -5,7 +5,7 @@ function Footer(){
 
         <>
        <div className="bg-[#F2F2F2] px-12 pb-10 sm:pb-2">
-       <div class="grid grid-cols-2 sm:grid-cols-4 gap-10 p-20">
+       <div className="grid grid-cols-2 sm:grid-cols-4 gap-10 p-20">
             <div className="border-t-4 border-[#35448C] pt-5">
                 <h1 className="text-black text-lg font-bold mb-5">Popular</h1>
                 <h1>Ski Vacation </h1>
@@ -42,11 +42,11 @@ function Footer(){
             </div>
         </div>
         <hr className="sm:mb-6 mt-6 border border-[#8797ad]"/>
-        <div class="flex sm:flex-row">
-  <div class="basis-full sm:basis-1/2">
+        <div className="flex sm:flex-row">
+  <div className="basis-full sm:basis-1/2">
       <h1 className="text-lg mt-3">© Firma 2021 - 2022 The Firma name and logo are registered trademarks.</h1>
   </div>
-  <div class="basis-1/4 hidden sm:flex mb-7 justify-end">
+  <div className="basis-1/4 hidden sm:flex mb-7 justify-end">
       <div className="flex items-center gap-2">
       <div className="w-11 h-11 bg-[#9D9D9D] rounded-full"/>
       <h1 className="underline">Language</h1>
@@ -56,7 +56,7 @@ function Footer(){
       <h1 className="underline">EUR</h1>
       </div>
       </div>
-  <div class="basis-1/4 hidden sm:flex gap-4 justify-end">
+  <div className="basis-1/4 hidden sm:flex gap-4 justify-end">
   
   <div className="w-11 h-11 bg-[#9D9D9D] rounded-full"/>
   <div className="w-11 h-11 bg-[#9D9D9D] rounded-full"/>

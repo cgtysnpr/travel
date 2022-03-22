@@ -154,7 +154,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-black  tracking-wide">WHERE TO GO, THIS SUMMER ?!</h1>
       <h1 className="text-[#9D9D9D] w-3/6 mt-2 mb-12">Select your destination to make your summer unforgettable for you</h1>
  
-      <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
       <div className="hover:border-t-8 hover:border-[#35448C] py-2">
         <img className="rounded-md w-full mb-5" src="images/slider-1.png"/>
         <h1 className="text-2xl font-bold">BAHAMAS</h1>
@@ -180,7 +180,7 @@ export default function Home() {
 
     </div>
 <div className="w-full bg-[#fbeaeb] pb-10">
-<div class="grid grid-cols-1 flex justify-center justify-items-center sm:grid-cols-4 gap-4  p-12">
+<div className="grid grid-cols-1 flex justify-center justify-items-center sm:grid-cols-4 gap-4  p-12">
           <div className="flex flex-col">
             <div className="flex  mb-2 p-5">
             <h1 className="text-3xl text-black font-bold">SADECE GÜZEL DEGIL, EN IYILERI GOSTERIYORUZ</h1>
@@ -215,7 +215,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-black px-12 tracking-widest">POPULAR LOCATIONS</h1>
       <h1 className="px-12 text-[#9D9D9D]">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet </h1>
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 px-12 mt-6">
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 px-12 mt-6">
         <div className="bg-[#2f3c7e] rounded-md p-6">
           <h1 className="text-red-700 font-bold text-xl underline">Trending</h1>
           <h1 className="text-white  text-xl ">Muğla, Turkey</h1>
@@ -247,7 +247,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-black  tracking-wide">LOREM IPSUM SIT AMET DOLOR VELLE EST POSSE.</h1>
       <h1 className="text-[#9D9D9D] w-3/6 mt-2 mb-12">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatteLorem ipsum sit amet dolor velle est posse indum.</h1>
  
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
       <div className="hover:border-t-8 hover:border-[#35448C] py-2">
         <img className="rounded-md w-full mb-5" src="images/cart1.png"/>
         <h1 className="text-2xl font-bold">ITALY</h1>
@@ -268,7 +268,7 @@ export default function Home() {
         <h1 className="font-bold text-4xl mb-12">STILL CONFUSED? CHECK OUR OFFERS.</h1>
         <h1 className="px-12 text-[#9D9D9D]">Select your destination to make your summer unforgettable</h1>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
           <div className="bg-[#FBEAEB] p-8">
             <h1 className="text-2xl text-[#2F3C7E] font-bold">FISHING SEASON IN NORWAY</h1>
             <h1 className="text-[#2F3C7E] font-medium w-3/5">Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.</h1>
@@ -285,7 +285,7 @@ export default function Home() {
 
     </div>
     <div className="bg-[#F8F8F8] hidden sm:block px-12">
-      <div class="grid sm:grid-cols-4 gap-4 py-16">
+      <div className="grid sm:grid-cols-4 gap-4 py-16">
         <div className="flex">
           <div className="rounded-full w-14 h-14 bg-[#2F3C7E]"/>
           <div className="ml-8">
@@ -322,7 +322,7 @@ export default function Home() {
       <h1 className="text-4xl  font-bold text-black tracking-wide">SEYAHAT BLOGGERLARINDAN TAVSIYELER</h1>
       <h1 className="text-[#9D9D9D] mt-2">Select your destination to make your summer unforgettable</h1>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
       <div className="hover:border-t-8 hover:border-[#35448C] py-2">
         <img className="rounded-md w-full mb-5" src="images/cart7.png"/>
         <h1 className="text-2xl font-bold">NORFOLK</h1>
@@ -350,7 +350,7 @@ export default function Home() {
       <h1 className="mt-12 text-xl font-bold">OTHER, MUST SEEN PLACES</h1>
       <h1 className="mt-12 text-xl font-bold mb-3">ITALY</h1>
       </div>
-      <div class="grid sm:grid-cols-4 grid-cols-2 gap-4">
+      <div className="grid sm:grid-cols-4 grid-cols-2 gap-4">
       <div>
         <h1>Aspen</h1>
         <h1>Breckenridge</h1>
@@ -380,7 +380,7 @@ export default function Home() {
       <div className="px-12 mb-12">
       <h1 className="mt-12 text-xl font-bold">ALL PLACES</h1>
       <h1 className="mt-12 text-xl font-bold mb-3">ITALY</h1>
-      <div class="grid sm:grid-cols-4 grid-cols-2 gap-10 sm:gap-4">
+      <div className="grid sm:grid-cols-4 grid-cols-2 gap-10 sm:gap-4">
       <div>
         <h1>Aspen</h1>
         <h1>Breckenridge</h1>
