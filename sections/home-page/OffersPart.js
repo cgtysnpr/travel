@@ -18,11 +18,11 @@ const offersPart = [
 function OffersParts() {
   return (
     <>
-      <div className="mt-12 flex justify-between">
-        <h1 className="font-bold text-4xl mb-12">
+      <div className="mt-12 flex flex-col gap-4 sm:flex-row justify-start sm:justify-between mb-5">
+        <h1 className="font-bold text-4xl">
           STILL CONFUSED? CHECK OUR OFFERS.
         </h1>
-        <h1 className="px-12 text-[#9D9D9D]">
+        <h1 className=" text-[#9D9D9D]">
           Select your destination to make your summer unforgettable
         </h1>
       </div>

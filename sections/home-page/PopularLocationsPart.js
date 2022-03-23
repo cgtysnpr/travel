@@ -39,7 +39,7 @@ function PopularLocationsPart() {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 px-12 mt-6">
         {locationData.map((data, i) => (
-          <div key={i} className="bg-[#2f3c7e] rounded-md p-6">
+          <div key={i} className={(i+1) === locationData.length ? "hidden sm:block bg-[#2f3c7e] rounded-md p-6":"bg-[#2f3c7e] rounded-md p-6"}>
             <h1 className="text-red-700 font-bold text-xl underline">
               {data.head}
             </h1>

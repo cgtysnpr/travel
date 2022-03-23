@@ -15,7 +15,7 @@ const adviceData = [
     title: "STROUD",
     description:
       "Lorem ipsum sit amet dolor velle est posse indum ingot lorem ipsum tatte.",
-    image: "images/cart8.png",
+    image: "images/cart9.png",
   },
   {
     title: "SAN BERNARDO",
@@ -27,7 +27,7 @@ const adviceData = [
 function AdvicePart() {
   return (
     <div className="px-12 mt-10 pt-10 mb-16">
-      <div className="flex justify-between mb-12">
+      <div className="flex flex-col sm:flex-row justify-between mb-12">
         <h1 className="text-4xl  font-bold text-black tracking-wide">
           SEYAHAT BLOGGERLARINDAN TAVSIYELER
         </h1>
