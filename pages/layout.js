@@ -1,15 +1,12 @@
-
-import Header from '../sections/template-parts/header'
-import Footer from '../sections/template-parts/footer'
+import Header from "../sections/template-parts/header";
+import Footer from "../sections/template-parts/footer";
 export default function Layout({ children }) {
-    
-    return(
+  return (
+    <>
+      <Header />
 
-  <>
-    <Header/>
-      
-    {children}
-    <Footer/>
-</>
-    );
+      {children}
+      <Footer />
+    </>
+  );
 }
