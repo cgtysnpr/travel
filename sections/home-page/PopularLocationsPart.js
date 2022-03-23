@@ -28,7 +28,7 @@ const locationData = [
 function PopularLocationsPart() {
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex flex-col sm:flex-row justify-between">
         <h1 className="text-4xl font-bold text-black px-12 tracking-widest">
           POPULAR LOCATIONS
         </h1>
